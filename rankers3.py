@@ -351,7 +351,7 @@ def run_vitelo_pipeline(df):
 
     print("\n--- Starting Julia VitELO Engine ---")
     try:
-        subprocess.run(["julia", "vitelo.jl", temp_in], check=True)
+        subprocess.run(["julia", "./vito/vitelo.jl", temp_in], check=True)
     except Exception as e:
         print(f"Julia execution failed: {e}")
         return None
