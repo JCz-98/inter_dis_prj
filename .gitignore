@@ -1,0 +1,10 @@
+# venv
+.venv/
+
+.vscode/
+
+docs/
+
+data/
+
+./vitelo

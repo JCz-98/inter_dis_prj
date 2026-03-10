@@ -1,0 +1,5 @@
+0×10 DataFrame
+ Row │ player  WR       ATMWR    VitELO  ΔVitELO  Games  Entropy  average_score  multiplier  inactivity
+     │ String  Float64  Float64  Int64   Int64    Int64  Float64  Float64        Float64     Day
+─────┴──────────────────────────────────────────────────────────────────────────────────────────────────
+Timeframe: 999 days	Minimum number of games: 10	Inactivity filter: 7 days
